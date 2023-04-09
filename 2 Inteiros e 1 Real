@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Digite dois números inteiros: ");
+     double i = teclado.nextDouble();
+     System.out.print("                            : ");
+     double y = teclado.nextDouble();
+     System.out.print("Digite um números real: ");
+     double r = teclado.nextDouble();
+
+     double p = 2 * i + y/2;
+
+     double s = 3 * i + r;
+
+     double t = r * r * r;
+
+    
+     System.out.println("O produto do dobro do primeiro com metade do segundo é: " + p + "!");
+    
+     System.out.println("A soma do triplo do primeiro com o terceiro é: " + s + "!");
+    
+     System.out.println("O terceiro elevado ao cubo é: " + t + "!");
+
+     }
